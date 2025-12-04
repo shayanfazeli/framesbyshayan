@@ -65,8 +65,13 @@ export const photos: Photo[] = [
   // ALBUM: a slice of urban life 
   {
     id: "goingToSproutsAtGoldenTime-20251009-183334",
-    title: "Photo Title",
-    description: "Saw a big flock of birds flying over the neighborhood, as we were finishing up our groceries at Sprouts. So, figured I'd pick up my camera and try to capture these rare moments.",
+    title: "Flying away",
+    description: `Saw a big flock of birds flying over the neighborhood, as we were finishing up our groceries at Sprouts. So, figured I'd pick up my camera and try to capture these rare moments.
+
+Aperture: 8
+ISO: 320
+Focal Length: 24
+Shutter Speed: 1/50`,
     imageUrl: `${RAW_BASE_URL}/a_slice_of_urban_life/goingToSproutsAtGoldenTime-20251009-183334.JPG?w=800&h=1000&fit=crop`,
     albumId: "urban-life", // must match album id
     date: new Date("2025-10-09"),
