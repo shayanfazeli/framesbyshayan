@@ -16,7 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/framesbyshayan">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/album/:albumId" element={<Album />} />
