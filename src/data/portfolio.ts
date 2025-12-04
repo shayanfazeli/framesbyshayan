@@ -59,14 +59,17 @@ export const albums: Album[] = [
 // });
 
 
+export const RAW_BASE_URL = "https://raw.githubusercontent.com/shayanfazeli/framesbyshayan/refs/heads/main/portfolio_data";
+
 export const photos: Photo[] = [
+  // ALBUM: a slice of urban life 
   {
-    id: "photo-1",
+    id: "goingToSproutsAtGoldenTime-20251009-183334",
     title: "Photo Title",
-    description: "a story i would write here",
-    imageUrl: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=1000&fit=crop",
+    description: "Saw a big flock of birds flying over the neighborhood, as we were finishing up our groceries at Sprouts. So, figured I'd pick up my camera and try to capture these rare moments.",
+    imageUrl: `${RAW_BASE_URL}/a_slice_of_urban_life/goingToSproutsAtGoldenTime-20251009-183334.JPG?w=800&h=1000&fit=crop`,
     albumId: "urban-life", // must match album id
-    date: new Date("2024-03-10"),
+    date: new Date("2025-10-09"),
   },
   // ... more photos
 ];
